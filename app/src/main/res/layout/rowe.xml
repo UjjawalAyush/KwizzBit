@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="7dp"
+        android:background="@color/colorAccent3">
+
+        <TextView
+            android:layout_width="175dp"
+            android:id="@+id/txtTitle8"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Vikramaditya Singh Kadian"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent6"
+            android:text="Accept"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:background="@color/colorAccent6"
+            android:text="Reject"
+            android:textSize="10sp" />
+    </LinearLayout>
+</RelativeLayout>

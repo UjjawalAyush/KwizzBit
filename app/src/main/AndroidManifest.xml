@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ujjawalayush.example.kwizzbit">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.Signup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Verify">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.Verify" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainPage">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.MainPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Phone">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.Phone" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Quiz">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.Quiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.Start" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Finish">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.Finish" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Friends">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.Friends" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View1">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.View1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddFriends">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.AddFriends" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Received">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.Received" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Other">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.Other" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LeaderBoard">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.LeaderBoard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfilePic">
+            <intent-filter>
+                <action android:name="com.ujjawalayush.example.kwizzbit.ProfilePic" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

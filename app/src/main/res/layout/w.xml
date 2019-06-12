@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="7dp"
+        android:background="@color/colorAccent3">
+
+        <TextView
+            android:layout_width="200dp"
+            android:id="@+id/txtTitle56"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Vikramaditya Singh Kadian"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/txtTitle57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="20"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

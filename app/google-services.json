@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "426632790960",
+    "firebase_url": "https://kwizzbit.firebaseio.com",
+    "project_id": "kwizzbit",
+    "storage_bucket": "kwizzbit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426632790960:android:b2d991a5ac98d6c3",
+        "android_client_info": {
+          "package_name": "com.ujjawalayush.example.kwizzbit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426632790960-ioae4kde3e4vs0mthjosr1igtmtk42nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh-wc8IR29EiLIcgmzL0w_HVss2R5n1EE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426632790960-ioae4kde3e4vs0mthjosr1igtmtk42nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
